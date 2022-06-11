@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+body{
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ---------------------------- */
+/*NAV*/
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 60px;
+  box-shadow: 1px 1px 10px rgb(202, 202, 202);
+  padding: 0px 30px;
+}
+.nav span{
+  color: orangered;
+  font-size: 35px;
+}
+.logo{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(4, 4, 117);
+}
+button{
+width:150px;
+background-color: orangered;
+border: none;
+height: 35px;
+margin: 5px;
+color: white;
+font-size: 13px;
+font-weight: 600;
+border-radius: 3px;
+}
+
+.trial{
+  background-color: rgb(2, 2, 66);;
+}
+
+/* ----------------------------- */
+/* Form */
+.forms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.left{
+  width: 50vw;
+  text-align: center;
+}
+
+.head{
+  font-size: 35px;
+  font-weight: 800;
+  color: rgb(2, 2, 73);
+}
+
+.sub{
+  font-size: 15px;
+}
+
+.form{
+  margin: 20px ;
+  font-size: 15px;
+  color: red;
+  /* text-align: left; */
+}
+.input{
+  height: 40px;
+width: 300px;
+padding: 0px 15px;
+border-radius: 5px;
+border: 1px solid gray;
+outline: none;
+/* text-align: center; */
+}
+
+.login-form-button{
+  width: 330px;
+  height: 40px;
+  background-color: rgb(2, 2, 73);
+
+}
+
+.check{
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+/* .divi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.illustration{
+  width: 50vw;
+  height: 100vh;
+}
+
+@media (max-width:938px) {
+  .left{
+    width: 40vw;
+    text-align: center;
+  }
+}
+
+@media (max-width:630px) {
+  .right{
+    display: none;
+  }
+  .left{
+    width: 100vw;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .trial .login2{
+    display: ;
+  }
+}
