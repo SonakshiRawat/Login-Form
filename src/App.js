@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./components/Nav";
 import Form from "./components/Form";
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
         </div>
 
         <div className="right">
-          <img src="images/images.jpg" alt="" className="illustration" />
+          <img src="images/3.png" alt="" className="illustration" />
         </div>
       </div>
     </div>

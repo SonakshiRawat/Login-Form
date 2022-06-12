@@ -1,0 +1,42 @@
+/* ---------------------------- */
+/*NAV*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: 1px 1px 10px rgb(202, 202, 202);
+  padding: 0px 30px;
+}
+.nav span {
+  color: orangered;
+  font-size: 35px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(72,78,85,255);
+}
+button {
+  width: 150px;
+  background-color: rgba(248,134,3,255);
+  border: none;
+  height: 35px;
+  margin: 5px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.trial {
+  background-color:rgba(1,48,72,255);
+}
+
+
+@media (max-width: 700px) {
+  .trial,
+  .login1 {
+    display: none;
+  }
+}

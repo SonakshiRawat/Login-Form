@@ -1,0 +1,103 @@
+.login-form {
+  width: 370px;
+  margin: auto;
+}
+.form {
+  margin: 20px;
+  font-size: 15px;
+  color: red;
+}
+.input {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(215,215,215,255);
+  outline: none;
+}
+.token{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 17px;
+  background-color: grey;
+  width: 330px;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  margin: 50px auto 10px auto;
+}
+.display{
+  display: none;
+}
+.input::placeholder{
+  color: rgba(215,215,215,255);
+
+}
+.login-form-forgot{
+  color: rgba(158,158,158,255);
+}
+.login-form-button {
+  width: 335px;
+  height: 40px;
+  background-color: rgba(3,47,73,255);
+}
+
+.check {
+  font-size: 15px;
+  margin-left: 97px;
+}
+.check2 {
+  font-size: 15px;
+ color: rgba(161,161,161,255);
+}
+.divi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+@media (max-width: 766px) {
+  .login-form {
+    width: 320px;
+  }
+
+  .login-form-button {
+    width: 290px;
+  }
+  .check {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .login-form {
+    width: 370px;
+  }
+
+  .login-form-button {
+    width: 340px;
+  }
+
+  .check {
+    margin-left: 97px;
+  }
+}
+
+@media (max-width: 370px) {
+  .form {
+    font-size: 13px;
+  }
+  .login-form {
+    width: 300px;
+  }
+
+  .login-form-button {
+    width: 270px;
+  }
+
+  .check {
+    margin-left: 30px;
+  }
+}
